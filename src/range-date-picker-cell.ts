@@ -4,7 +4,7 @@ import { format, getTime, startOfDay } from 'date-fns';
 import { enUS } from 'date-fns/esm/locale';
 import { Day } from './day.js';
 
-class RangeDatepickerCell extends LitElement {
+export class RangeDatepickerCell extends LitElement {
   static styles = css`
     :host {
       display: block;
